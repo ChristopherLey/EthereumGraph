@@ -1,0 +1,3 @@
+[submodule "pyetherscan"]
+	path = pyetherscan
+	url = https://github.com/ChristopherLey/pyetherscan.git
