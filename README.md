@@ -28,9 +28,8 @@ value and insight to be added to the Ethereum network. Such use cases:
 For You can find our contact details on our website [Machina Doctrina](www.machinadocrtina.com
 
 ## Transaction Graph Example
-<p align="center">
-    <img src="assets/graph_16541867:16541877.png">
-</p>
+see [the transaction graph](TransactionGraph/transaction_graph.html)
+
 
 ## This repository
 This git repository is intended to contain both the transaction graph generation code and the Graph Neural Network
