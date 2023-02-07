@@ -6,17 +6,19 @@
 
 ## Objective
 
-To build a graph representation of all transactions using a Graph Neural Network, specifically a Graph Temporal
-Neural Network (e.g. such as [arxiv.org/pdf/2006.10637.pdf](https://arxiv.org/pdf/2006.10637.pdf)).
+To build a temporal (dynamic) graph representation of all transactions then leverage the deep learning framework 
+dynamic graph neural networks / temporal graph neural networks to extract valuable insight from the transaction network at scale.
+
+For an overview of dynamic graphs please see [_"Representation Learning for Dynamic Graphs: A Survey"_ by Kazemi, S. et.al.](https://www.jmlr.org/papers/volume21/19-447/19-447.pdf)
 
 The aim is to classify either a single transactions (or wallet) or a series of transactions based on the relative
 relations from both past and present interactions represented as a transaction graph that evolves over time from the
 [Ethereum](https://ethereum.org/en/) blockchain network.
 
 Typically, we divide the application cases in 3 parts:
- - edge classification/prediction (e.g. classify transactions)
- - node classification/prediction (e.g. classifying wallet types/holders), and
- - graph/subgraph classification/prediction (e.g. transaction load, anomalies)
+ - edge classification/prediction (e.g. classify transactions), see [_"Temporal Graph Networks for Deep Learning on Dynamic Graphs"_ by Rossi, E. et.al.](http://arxiv.org/abs/2006.10637)
+ - node classification/prediction (e.g. classifying wallet types/holders), [_"Influencer Detection with Dynamic Graph Neural Networks"_ Tiukhova, E. et.al.](https://arxiv.org/abs/2211.09664)
+ - graph/subgraph classification/prediction (e.g. transaction load, anomalies) [_"Graph Neural Network-Based Anomaly Detection in Multivariate Time Series"_ by Deng, A. et.al.](https://arxiv.org/abs/2106.06947v1)
 
 We have quite extensive experience applying these techniques to social networks (predicting future connections
 via Twitter) and road networks (predicting traffic load in a sector of the network) and believe there is significant
@@ -27,8 +29,14 @@ value and insight to be added to the Ethereum network. Such use cases:
 
 For You can find our contact details on our website [Machina Doctrina](www.machinadocrtina.com
 
-## Transaction Graph Example
-see [the transaction graph](TransactionGraph/transaction_graph.html)
+## Transaction Graph Example 
+### Blocks 16577361->16577370
+
+<p align="center">
+    <img src="assets/Ethereum_graph_temporal_snapshot.png">
+</p>
+
+to generate a live version of the graph run this [the transaction graph](TransactionGraph/transaction_graph.html) html
 
 
 ## This repository
