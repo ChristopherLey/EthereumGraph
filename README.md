@@ -1,4 +1,4 @@
-<h1 align="center"> Ethereum Transaction Graph</h1>
+<h1 align="center"> Ethereum Dynamic Transaction Graph</h1>
 
 <p align="center">
     <img src="assets/Ethereum_Graph.png">
@@ -28,6 +28,12 @@ value and insight to be added to the Ethereum network. Such use cases:
  - Peer Discovery
  - Network Anomaly detection
 
+### Additional background
+ - [_"Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series"_ Dai, E. et.al. (2022)](http://arxiv.org/abs/2202.07857)
+ - [_"Anomaly Detection in Multiplex Dynamic Networks: from Blockchain Security to Brain Disease Prediction"_ Behrouz, A. et.al. (2022)](http://arxiv.org/abs/2211.08378)
+ - [_"Imperceptible Adversarial Attacks on Discrete-Time Dynamic Graph Models"_ Sharma, K. et.al. (2022)](https://openreview.net/pdf?id=YMrdoXP3x_A)
+ - [_"Provably expressive temporal graph networks"_ Souza, A. et.al. (2022)](http://arxiv.org/abs/2209.15059)
+
 Contact details can be found on our website [Machina Doctrina](www.machinadocrtina.com)
 
 ## Transaction Graph Example 
@@ -40,7 +46,7 @@ Contact details can be found on our website [Machina Doctrina](www.machinadocrti
 to generate a live version of the graph run this [the transaction graph](TransactionGraph/transaction_graph.html) html
 
 
-## This repository
+## Repository sanitation
 This git repository is intended to contain both the transaction graph generation code and the Graph Neural Network
 development code
 
