@@ -28,7 +28,7 @@ value and insight to be added to the Ethereum network. Such use cases:
  - Peer Discovery
  - Network Anomaly detection
 
-For You can find our contact details on our website [Machina Doctrina](www.machinadocrtina.com)
+Contact details can be found on our website [Machina Doctrina](www.machinadocrtina.com)
 
 ## Transaction Graph Example 
 ### Blocks 16577361->16577370
