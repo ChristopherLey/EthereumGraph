@@ -6,7 +6,7 @@
 
 ## Objective
 
-To build a temporal (dynamic) graph representation of all transactions. Which will allow us to then leverage (and extend) 
+To build a temporal (dynamic) graph representation of all block transactions. Which will allow us to then leverage (and extend) 
 the deep learning frameworks based on dynamic graph neural networks / temporal graph neural networks to extract valuable
 insight from the transaction network at scale.
 
@@ -27,6 +27,11 @@ value and insight to be added to the Ethereum network. Such use cases:
 
  - Peer Discovery
  - Network Anomaly detection
+ - P2P Network Health
+
+These two objectives closely align with two of the [wishlist](https://notes.ethereum.org/@djrtwo/academic-grants-wishlist-2023) items:
+ - __Networking & P2P__: _"Tools & techniques for analysis of p2p network health, early detection of attacks, identification of p2p bugs, overall data analysis, etc."_
+ - __Security__: _"Machine Learning on a network level to find anomalies and enable early warning systems for issues that start occurring"_
 
 ### Additional background
  - [_"Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series"_ Dai, E. et.al. (2022)](http://arxiv.org/abs/2202.07857)
