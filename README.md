@@ -39,7 +39,7 @@ These two objectives closely align with two of the [wishlist](https://notes.ethe
  - [_"Imperceptible Adversarial Attacks on Discrete-Time Dynamic Graph Models"_ Sharma, K. et.al. (2022)](https://openreview.net/pdf?id=YMrdoXP3x_A)
  - [_"Provably expressive temporal graph networks"_ Souza, A. et.al. (2022)](http://arxiv.org/abs/2209.15059)
 
-Contact details can be found on our website [Machina Doctrina](www.machinadocrtina.com)
+Contact details can be found on our website [Machina Doctrina](https://www.machinadocrtina.com)
 
 ## Transaction Graph Example 
 ### Blocks 16577361->16577370
@@ -50,6 +50,11 @@ Contact details can be found on our website [Machina Doctrina](www.machinadocrti
 
 to generate a live version of the graph run this [the transaction graph](TransactionGraph/transaction_graph.html) html
 
+## Application example
+We also rested it on a small semi-supervised (mostly unlabeled) bitcoin transaction graph and got great results
+<p align="center">
+    <img src="assets/Bitcoin_fraud_detection.png">
+</p>
 
 ## Repository sanitation
 This git repository is intended to contain both the transaction graph generation code and the Graph Neural Network
