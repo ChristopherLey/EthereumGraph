@@ -39,7 +39,7 @@ These two objectives closely align with two of the [wishlist](https://notes.ethe
  - [_"Imperceptible Adversarial Attacks on Discrete-Time Dynamic Graph Models"_ Sharma, K. et.al. (2022)](https://openreview.net/pdf?id=YMrdoXP3x_A)
  - [_"Provably expressive temporal graph networks"_ Souza, A. et.al. (2022)](http://arxiv.org/abs/2209.15059)
 
-Contact details can be found on our website [Machina Doctrina](https://www.machinadocrtina.com)
+Contact details can be found on our website [Machina Doctrina](https://www.machinadoctrina.com)
 
 ## Transaction Graph Example 
 ### Blocks 16577361->16577370
